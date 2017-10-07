@@ -1,9 +1,17 @@
+// essential requirements
 var express = require('express');
 var path = require('path');
+
+// .env config 
 require('dotenv').config();
+
+// additional requirements
 var app = express();
+
+// port and heroku connections
 var port = process.env.PORT || 5000;
 
+// directing to the static files from client side - but why is there the additonal lines from line 25?
 app.use(express.static('server/public'));
 
 // Using requst module to make HTTP requests from the server
@@ -16,6 +24,7 @@ var oauthToken = process.env.GIT_TOKEN;
 
 app.use(express.static('public'));
 
+// 
 var user_options = {
   url: 'https://api.github.com/users/' + username,
   headers: {

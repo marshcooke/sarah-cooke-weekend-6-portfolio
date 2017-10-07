@@ -20,7 +20,7 @@
 Create a landing page for yourself as a developer. This is a front end project, it has a simple server set up to serve back your static files. The focus will be on Angular and front end styling.
 
 #### Front End
-- Have at least two views. One page about you and one page about your code.
+- Have at least two views. One page about you and one page about your code. [X] [X]
   - One view about you that uses some info from the Github Profile API call. [ ]
   - One view about your code that uses info from the Github Repo API call. [ ]
 - Use the `GithubService` angular service to interact with the simple server that is provided. [ ] 
@@ -29,7 +29,7 @@ Create a landing page for yourself as a developer. This is a front end project, 
 #### Back End
 - You have already been given a simple server that calls out to the GitHub API. You shouldn't need to change the code but are welcome to make changes.
 	- For reference, here is the [API Docs](https://developer.github.com/v3/) for GitHub.
-- As practice, comment each line of code in the server. Make sure you know what each line does.
+- As practice, comment each line of code in the server. Make sure you know what each line does. [ ] 
 
 **Existing Routes**
 
