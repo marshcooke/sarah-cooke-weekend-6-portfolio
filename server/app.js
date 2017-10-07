@@ -11,7 +11,10 @@ var app = express();
 // port and heroku connections
 var port = process.env.PORT || 5000;
 
-// directing to the static files from client side - but why is there the additonal lines from line 25?
+// directing to the static files from client side 
+// removed ```app.use(express.static('public'));``` 
+// from later in the code because it produced more 
+//errors than before by only using it.
 app.use(express.static('server/public'));
 
 // Using requst module to make HTTP requests from the server
@@ -21,8 +24,6 @@ var request = require('request');
 // API Key & username are environment variables in Heroku
 var username = process.env.USER_NAME;
 var oauthToken = process.env.GIT_TOKEN;
-
-app.use(express.static('public'));
 
 // 
 var user_options = {
