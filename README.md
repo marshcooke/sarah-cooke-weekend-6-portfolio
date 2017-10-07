@@ -8,12 +8,12 @@
 
 ### Setup
 
-- Fork this repo and clone it to your computer
-- `npm install`
+- Fork this repo and clone it to your computer [X]
+- `npm install` [X]
 - Create a new `personal access token` on GitHub. This is under the user setting.
-	- [Generate a GitHub Token](https://github.com/settings/tokens). Select only `public_repo` and `read:user`.
-- Create a `.env` file and add a `USER_NAME` and `GIT_TOKEN` to it. The `.env` is already added to the `.gitignore` so that you will not push it to github.
-- `npm start`
+	- [Generate a GitHub Token](https://github.com/settings/tokens). Select only `public_repo` and `read:user`. [X]
+- Create a `.env` file and add a `USER_NAME` and `GIT_TOKEN` to it. The `.env` is already added to the `.gitignore` so that you will not push it to github. [X]
+- `npm start` [X]
 
 ### Instructions
 
@@ -21,10 +21,10 @@ Create a landing page for yourself as a developer. This is a front end project, 
 
 #### Front End
 - Have at least two views. One page about you and one page about your code.
-  - One view about you that uses some info from the Github Profile API call
-  - One view about your code that uses info from the Github Repo API call.
-- Use the `GithubService` angular service to interact with the simple server that is provided. 
-- Style your site.
+  - One view about you that uses some info from the Github Profile API call. [ ]
+  - One view about your code that uses info from the Github Repo API call. [ ]
+- Use the `GithubService` angular service to interact with the simple server that is provided. [ ] 
+- Style your site. [ ]
 
 #### Back End
 - You have already been given a simple server that calls out to the GitHub API. You shouldn't need to change the code but are welcome to make changes.
