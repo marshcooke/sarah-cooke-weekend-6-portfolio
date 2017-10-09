@@ -7,15 +7,15 @@ myApp.config(function ($routeProvider, $locationProvider) {
   $routeProvider
       .when('/aboutme', {
       templateUrl: '/views/aboutme.html',
-      controller: 'UserController as uc',
+      controller: 'UserController as UC',
     }).when('/aboutcode', {
       templateUrl: '/views/aboutcode.html',
-      controller: 'UserController as uc',
+      controller: 'RepoController as RC',
     }).when('/home', {
       templateUrl: '/views/index.html',
-      controller: 'UserController as uc',
+      controller: 'UserController as UC',
     }).otherwise('/', {
       templateUrl: '/views/index.html',
-      controller: 'UserController as uc',
+      controller: 'UserController as UC',
     });
 });

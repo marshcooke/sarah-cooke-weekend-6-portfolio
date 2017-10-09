@@ -35,6 +35,7 @@ a:active {
 
 img {
     border-radius: 75%;
-    width: 65%;
+    width: 25%;
     padding: 2px;
+    align-content: left;
 }

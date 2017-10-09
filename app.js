@@ -15,7 +15,7 @@ var port = process.env.PORT || 5000;
 // removed ```app.use(express.static('public'));``` 
 // from later in the code because it produced more 
 //errors than before by only using it.
-app.use(express.static('server/public'));
+app.use(express.static('public'));
 
 // Using requst module to make HTTP requests from the server
 // https://www.npmjs.com/package/request

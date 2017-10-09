@@ -1,0 +1,10 @@
+<div>
+    <div>{{UC.user.data}}</div>
+
+    <img ng-src="{{UC.user.data.avatar_url}}">
+    <p>Welcome to my collection of repositories! My name is {{UC.user.data.name}}.</p>
+    <p>I am currently enrolled at Prime Digital Academy in the Full Stack Web Development program.</p>
+    <p>I began my work on github on {{UC.user.data.created_at}}, since our program began, I have made {{UC.user.data.total_private_repos}}
+        private repoitories and {{UC.user.data.public_repos}} public repositories.</p>
+    <p>Keep up with my work here and contact me at your convenience at <a href="mailto:marshcooke1@gmail.com" target="_blank">{{UC.user.data.email}}</a></p>
+</div>
