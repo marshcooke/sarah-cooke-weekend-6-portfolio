@@ -21,15 +21,15 @@ Create a landing page for yourself as a developer. This is a front end project, 
 
 #### Front End
 - Have at least two views. One page about you and one page about your code. [X] [X]
-  - One view about you that uses some info from the Github Profile API call. [ ]
-  - One view about your code that uses info from the Github Repo API call. [ ]
-- Use the `GithubService` angular service to interact with the simple server that is provided. [ ] 
-- Style your site. [ ]
+  - One view about you that uses some info from the Github Profile API call. [X]
+  - One view about your code that uses info from the Github Repo API call. [X]
+- Use the `GithubService` angular service to interact with the simple server that is provided. [X] 
+- Style your site. [X]
 
 #### Back End
 - You have already been given a simple server that calls out to the GitHub API. You shouldn't need to change the code but are welcome to make changes.
 	- For reference, here is the [API Docs](https://developer.github.com/v3/) for GitHub.
-- As practice, comment each line of code in the server. Make sure you know what each line does. [ ] 
+- As practice, comment each line of code in the server. Make sure you know what each line does. [X] 
 
 **Existing Routes**
 
