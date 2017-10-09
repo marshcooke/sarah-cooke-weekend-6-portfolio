@@ -1,0 +1,22 @@
+<div>
+    <div>{{uc.repos.data}}</div>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Date Created</th>
+                <th>Project</th>
+                <th>Recent Push</th>
+                <th>View</th>
+                <th>Other data?</th>
+            </tr>
+        </thead>
+        <tr ng-repeat="repo in uc.repos.data">
+            <th>{{repo.created_at}}</th>
+            <th>{{repo.name}}</th>
+            <th>{{repo.pushed_at}}</th>
+            <th><a ng-href="{{repo.html_url}}" target="_blank">Follow the Link</a></th>
+            <th>Other data?</th>
+        </tr>
+    </table>
+</div>

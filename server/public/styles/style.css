@@ -32,3 +32,9 @@ a:active {
     color: rgba(48, 127, 240, 0.83);
     text-decoration: none;
 }
+
+img {
+    border-radius: 75%;
+    width: 65%;
+    padding: 2px;
+}
