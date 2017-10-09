@@ -1,12 +1,24 @@
-var myApp = angular.module('myApp', ['ngRoute']);
+var myApp = angular.module('myApp', ['ngRoute', 'ngMaterial']);
 
 /// Routes ///
-myApp.config(function($routeProvider, $locationProvider) {
+myApp.config(function ($routeProvider, $locationProvider) {
   $locationProvider.hashPrefix('');
 
   $routeProvider
     .when('/', {
-      templateUrl: '/views/user.html',
+      templateUrl: '/views/index.html',
+      controller: 'UserController as uc',
+    }).when('/aboutme', {
+      templateUrl: '/views/aboutme.html',
+      controller: 'UserController as uc',
+    }).when('/aboutcode', {
+      templateUrl: '/views/aboutcode.html',
+      controller: 'UserController as uc',
+    }).when('/home', {
+      templateUrl: '/views/index.html',
+      controller: 'UserController as uc',
+    }).otherwise('/', {
+      templateUrl: '/views/index.html',
       controller: 'UserController as uc',
     });
 });

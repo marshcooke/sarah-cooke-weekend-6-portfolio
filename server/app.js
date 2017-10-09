@@ -25,7 +25,7 @@ var request = require('request');
 var username = process.env.USER_NAME;
 var oauthToken = process.env.GIT_TOKEN;
 
-// 
+// GitHub API User Options
 var user_options = {
   url: 'https://api.github.com/users/' + username,
   headers: {
@@ -45,6 +45,7 @@ app.get('/github/user', function (req, res) {
   });
 });
 
+// GitHub API Repo Options
 var repo_options = {
   url: 'https://api.github.com/users/' + username + '/repos',
   headers: {
@@ -64,6 +65,7 @@ app.get('/github/repos', function (req, res) {
   });
 });
 
+// Port listening to spin up server
 app.listen(port, function () {
   console.log('localhost running on port', port);
 });

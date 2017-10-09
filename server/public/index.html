@@ -1,20 +1,43 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Projects</title>
-    <script src="vendors/angular.min.js" charset="utf-8"></script>
-    <script src="vendors/angular-route.min.js" charset="utf-8"></script>
-    <script src="scripts/client.js" charset="utf-8"></script>
-    <script src="scripts/user.controller.js" charset="utf-8"></script>
-    <script src="scripts/aboutme.controller.js" charset="utf-8"></script>
-    <script src="scripts/aboutcode.controller.js" charset="utf-8"></script>
-    <script src="scripts/github.service.js" charset="utf-8"></script>
-  </head>
-  <body ng-app="myApp">
-    <h1>Hello World</h1>
-    <main ng-view>
 
-    </main>
-  </body>
+<head>
+  <meta charset="utf-8">
+  <title>Sarah Cooke's Projects</title>
+
+  <!-- angular routes, client, controllers sources -->
+  <script src="vendors/angular.min.js" charset="utf-8"></script>
+  <script src="vendors/angular-route.min.js" charset="utf-8"></script>
+  <script src="scripts/client.js" charset="utf-8"></script>
+  <script src="scripts/user.controller.js" charset="utf-8"></script>
+  <script src="scripts/github.service.js" charset="utf-8"></script>
+
+  <!-- angular material sources -->
+  <link href="vendors/angular-material.css" rel="stylesheet" type="text/css">
+  <script src="vendors/angular-animate.min.js"></script>
+  <script src="vendors/angular-aria.min.js"></script>
+  <script src="vendors/angular-messages.min.js"></script>
+  <script src="vendors/angular-material.min.js"></script>
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body ng-app="myApp">
+  <header>
+    <h1>Sarah Cooke</h1>
+    <nav>
+      <li><a href="#/">Home</a></li>
+      <li><a href="#/aboutme">About me</a></li>
+      <li><a href="#/aboutcode">Portfolio</a></li>
+    </nav>
+  </header>
+
+  <main ng-view>
+
+  </main>
+  <footer>
+    <a href="http://github.com/marshcooke"></a>
+    <a href="http://www.linkedin.com/in/sarahmcooke"></a>
+  </footer>
+</body>
+
 </html>
