@@ -9,7 +9,7 @@ require('dotenv').config();
 var app = express();
 
 // port and heroku connections
-var port = process.env.PORT || 5000;
+var port = process.env.PORT || 6121;
 
 // directing to the static files from client side 
 // removed ```app.use(express.static('public'));``` 
