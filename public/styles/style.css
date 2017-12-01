@@ -10,15 +10,18 @@ header {
     padding: 8px;
 }
 
+/* nav bar specifically */
 li {
     display: inline;
     padding: 14px;
     color: rgba(48, 127, 240, 0.83);
+    font-weight: bold;
     text-decoration: none;
 }
 
 a:link, a:visited {
     color: rgba(48, 127, 240, 0.83);
+    font-weight: bold;
     text-decoration: none;
 }
 
@@ -30,8 +33,10 @@ a:hover {
 
 a:active {
     color: rgba(48, 127, 240, 0.83);
+    font-weight: bold;
     text-decoration: none;
 }
+/* end nav bar specific styling  */
 
 img {
     border-radius: 60%;
@@ -39,4 +44,8 @@ img {
     padding: 6px;
     float: left;
     margin: 25px;
+}
+
+footer {
+    position: absolute;
 }

@@ -11,7 +11,13 @@ myApp.config(function ($routeProvider, $locationProvider) {
     }).when('/aboutcode', {
       templateUrl: '/views/aboutcode.html',
       controller: 'RepoController as RC',
-    }).otherwise('/', {
+    })
+    // will work this up in the next phase to feature solo/group/hackday projects
+    // .when('/featured', {
+    //   templateUrl: '/views/featured.html',
+    //   controller: 'RepoController as RC',
+    // })
+    .otherwise('/', {
       templateUrl: '/views/index.html',
       controller: 'UserController as UC',
     });
