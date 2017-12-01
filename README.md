@@ -1,9 +1,10 @@
-# Weekend 6 HW  (Part One)
+# Weekend 6 Homework
 ## Start a Portfolio
 
 ### Objectives
 - Angular practice with multiple views, controllers, and a service
 - Front end styling
+- GitHub API connection
 - Hosting without a database on Heroku
 
 ### Setup
@@ -27,7 +28,7 @@ Create a landing page for yourself as a developer. This is a front end project, 
 - Style your site. [X]
 
 #### Back End
-- You have already been given a simple server that calls out to the GitHub API. You shouldn't need to change the code but are welcome to make changes.
+- You have already been given a simple server that calls out to the GitHub API. You shouldn't need to change the code but are welcome to make changes. [X]
 	- For reference, here is the [API Docs](https://developer.github.com/v3/) for GitHub.
 - As practice, comment each line of code in the server. Make sure you know what each line does. [X] 
 
@@ -41,11 +42,7 @@ The following routes have been provided and should work after setting up your `.
 ## Hard Mode
 
 ### Deploy
-- Deploy the app on Heroku. It doesn't have a database so you can follow the same steps as we did in lecture.
-- Here is the repo from the deployment lecture: [https://github.com/devjanaprime/herokuDeploy_noDb
-](https://github.com/devjanaprime/herokuDeploy_noDb)
-- Use environment variables on Heroku for your GitHub username and API key, **the .env file should not be checked in (leave it in the .gitignore)**. To set these up click into the app on Heroku, Settings, Reveal Config Vars, and add the same key value pairs you have in your local `.env` file.
+- Deploy the app on Heroku. It doesn't have a database so you can follow the same steps as we did in lecture. [X]
+- Use environment variables on Heroku for your GitHub username and API key, **the .env file should not be checked in (leave it in the .gitignore)**. To set these up click into the app on Heroku, Settings, Reveal Config Vars, and add the same key value pairs you have in your local `.env` file. [X]
 
-## Submit
-- The github repo url (where the code lives)
-- If deployed: The Heroku url (url of the deployed site)
+[See the deployed site here](https://sarah-cooke-porfolio.herokuapp.com/#/)
