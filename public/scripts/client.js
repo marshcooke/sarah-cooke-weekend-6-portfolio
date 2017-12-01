@@ -11,9 +11,6 @@ myApp.config(function ($routeProvider, $locationProvider) {
     }).when('/aboutcode', {
       templateUrl: '/views/aboutcode.html',
       controller: 'RepoController as RC',
-    }).when('/home', {
-      templateUrl: '/views/index.html',
-      controller: 'UserController as UC',
     }).otherwise('/', {
       templateUrl: '/views/index.html',
       controller: 'UserController as UC',

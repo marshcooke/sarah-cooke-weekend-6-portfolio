@@ -10,10 +10,10 @@
             </tr>
         </thead>
         <tr ng-repeat="repo in RC.repos.data">
-            <th>{{repo.created_at}}</th>
-            <th>{{repo.name}}</th>
-            <th>{{repo.pushed_at}}</th>
-            <th><a ng-href="{{repo.html_url}}" target="_blank">Follow the Link</a></th>
+            <td>{{repo.created_at | date: longDate}}</td>
+            <td>{{repo.name}}</td>
+            <td>{{repo.pushed_at | date: longDate}}</td>
+            <td><a ng-href="{{repo.html_url}}" target="_blank">Follow the Link</a></td>
         </tr>
     </table>
 </div>
