@@ -46,3 +46,9 @@ The following routes have been provided and should work after setting up your `.
 - Use environment variables on Heroku for your GitHub username and API key, **the .env file should not be checked in (leave it in the .gitignore)**. To set these up click into the app on Heroku, Settings, Reveal Config Vars, and add the same key value pairs you have in your local `.env` file. [X]
 
 [See the deployed site here](https://sarah-cooke-porfolio.herokuapp.com/#/)
+
+### Screen Shots
+- About Me
+![About Me](/public/images/screenshot1.png "About Me")
+- Porfolio
+![Portfolio](/public/images/screenshot2.png "Portfolio")
