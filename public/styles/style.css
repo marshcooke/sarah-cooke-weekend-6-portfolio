@@ -10,7 +10,7 @@ header {
     padding: 8px;
 }
 
-/* nav bar specifically */
+/* nav/footer bar specifically */
 li {
     display: inline;
     padding: 14px;
@@ -36,7 +36,7 @@ a:active {
     font-weight: bold;
     text-decoration: none;
 }
-/* end nav bar specific styling  */
+/* end nav/footer bar specific styling  */
 
 img {
     border-radius: 60%;
@@ -48,4 +48,32 @@ img {
 
 footer {
     position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+#newLink {
+    color: #716C6E;
+    font-weight: none;
+    text-decoration: none;
+}
+
+table {
+    color: black;
+    width: 80%;
+}
+
+th, td {
+    border-bottom: 1px solid #E2B9C6;
+    text-align: center;
+    height: 25px;
+}
+
+.table-div {
+    overflow-y: scroll;
+    max-height: 550px;
+    background-color: #FFFFFF;
 }

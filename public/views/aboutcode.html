@@ -1,5 +1,4 @@
-<div>
-    <!-- <div>{{RC.repos.data}}</div> -->
+<div align="center" class="table-div">
     <table>
         <thead>
             <tr>
@@ -13,7 +12,7 @@
             <td>{{repo.created_at | date: longDate}}</td>
             <td>{{repo.name}}</td>
             <td>{{repo.pushed_at | date: longDate}}</td>
-            <td><a ng-href="{{repo.html_url}}" target="_blank">Follow the Link</a></td>
+            <td><a id=newLink ng-href="{{repo.html_url}}" target="_blank">Follow the Link</a></td>
         </tr>
     </table>
 </div>
