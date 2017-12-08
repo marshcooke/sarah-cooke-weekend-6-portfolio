@@ -3,11 +3,11 @@
 
     <img ng-src="{{UC.user.data.avatar_url}}">
     <div>
-        <p>Welcome to my collection of repositories! My name is {{UC.user.data.name}} and I am a software engineer in {{UC.user.data.location}}.</p>
-        <p>I am currently enrolled at Prime Digital Academy in the Full Stack Web Development program.</p>
-        <p>I began my work on github on {{UC.user.data.created_at | date : longDate}}, since our program began, I have made {{UC.user.data.total_private_repos}}
+        <p>Welcome to my portfolio and collection of repositories! My name is {{UC.user.data.name}} and I am a software engineer in {{UC.user.data.location}}.</p>
+        <p>I graduated December 1, 2017 with a certificate from Prime Digital Academy's Full Stack Software Engineering program.</p>
+        <p>I began my work on GitHub on {{UC.user.data.created_at | date : longDate}}, since the program began in June, I have made {{UC.user.data.total_private_repos}}
             private repositories and {{UC.user.data.public_repos}} public repositories.</p>
-        <p>Keep up with my work here and contact me at your convenience at <a id=newLink href="mailto:marshcooke1@gmail.com" target="_blank">marshcooke1@gmail.com</a>.</p>
+        <p>Keep up with my work here and contact me at your convenience via email at <a id=newLink href="mailto:marshcooke1@gmail.com" target="_blank">marshcooke1@gmail.com</a>.</p>
     </div>
 </div>
 <div ng-include="'views/partials/footer.html'"></div>
