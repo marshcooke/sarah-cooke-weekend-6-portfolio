@@ -1,19 +1,21 @@
 <div align="center" class="table-div">
-    <table>
-        <thead>
-            <tr>
-                <th>Date Created</th>
-                <th>Project</th>
-                <th>Recent Push</th>
-                <th>View the Code</th>
+    <!-- <div>{{RC.repos.data}}</div> -->
+        <table>
+            <thead>
+                <tr>
+                    <th>Date Created</th>
+                    <th>Project</th>
+                    <th>Recent Push</th>
+                    <th>View the Code</th>
+                </tr>
+            </thead>
+            <tr ng-repeat="repo in RC.repos.data">
+                <td>{{repo.created_at | date: longDate}}</td>
+                <td>{{repo.name}}</td>
+                <td>{{repo.pushed_at | date: longDate}}</td>
+                <td><a id=newLink ng-href="{{repo.html_url}}" target="_blank">Follow the Link</a></td>
             </tr>
-        </thead>
-        <tr ng-repeat="repo in RC.repos.data">
-            <td>{{repo.created_at | date: longDate}}</td>
-            <td>{{repo.name}}</td>
-            <td>{{repo.pushed_at | date: longDate}}</td>
-            <td><a id=newLink ng-href="{{repo.html_url}}" target="_blank">Follow the Link</a></td>
-        </tr>
-    </table>
-</div>
+        </table>
+    </div>
+<!-- </div> -->
 <div ng-include="'views/partials/footer.html'"></div>
