@@ -45,7 +45,9 @@ The following routes have been provided and should work after setting up your `.
 - Deploy the app on Heroku. It doesn't have a database so you can follow the same steps as we did in lecture. [X]
 - Use environment variables on Heroku for your GitHub username and API key, **the .env file should not be checked in (leave it in the .gitignore)**. To set these up click into the app on Heroku, Settings, Reveal Config Vars, and add the same key value pairs you have in your local `.env` file. [X]
 
-[See my deployed site here](https://sarah-cooke-porfolio.herokuapp.com/#/)
+[See my deployed site on Heroku here](https://sarah-cooke-porfolio.herokuapp.com/#/)
+
+[See my deployed site on AWS here](http://www.sarahcooke.me/#/)
 
 ### Screen Shots
 - About Me
