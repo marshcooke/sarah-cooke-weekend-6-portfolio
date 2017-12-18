@@ -80,4 +80,5 @@ th, td {
     overflow-y: scroll;
     max-height: 550px;
     background-color: #FFFFFF;
+    margin-bottom: 25px;
 }
