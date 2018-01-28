@@ -11,6 +11,7 @@ header {
 }
 
 /* nav/footer bar specifically */
+
 li {
     display: inline;
     padding: 14px;
@@ -19,7 +20,8 @@ li {
     text-decoration: none;
 }
 
-a:link, a:visited {
+a:link,
+a:visited {
     color: rgba(48, 127, 240, 0.83);
     font-weight: bold;
     text-decoration: none;
@@ -36,6 +38,7 @@ a:active {
     font-weight: bold;
     text-decoration: none;
 }
+
 /* end nav/footer bar specific styling  */
 
 img {
@@ -67,10 +70,11 @@ table {
     padding-left: 5%;
     padding-right: 5%;
     margin-top: 1%;
-    margin-bottom: 1%;    
+    margin-bottom: 1%;
 }
 
-th, td {
+th,
+td {
     border-bottom: 1px solid #E2B9C6;
     text-align: center;
     height: 25px;
