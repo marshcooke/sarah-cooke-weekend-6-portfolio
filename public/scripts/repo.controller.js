@@ -10,3 +10,4 @@ myApp.controller('RepoController', function (GithubService) {
     GithubService.githubRepos();
   
   });
+  
